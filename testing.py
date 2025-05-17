@@ -1,4 +1,5 @@
-from models import *
+from models import Key, Pitch, Interval, apply_interval, Chord, Triad, SeventhChord, NinthChord
+import pytest
 from pytest import main
 
 def test_key():
@@ -62,36 +63,153 @@ def test_pitch():
 
 
 def test_intervals():
-    pitch1 = Pitch("C", 5)
+    base = Pitch("C", 5)
 
-    pitches2 = [
-        Pitch("C", 5), Pitch("C#", 5), Pitch("Db", 5),
-        Pitch("D", 5), Pitch("D#", 5), Pitch("Eb", 5),
-        Pitch("E", 5), Pitch("Fb", 5), Pitch("E#", 5),
-        Pitch("F", 5), Pitch("F#", 5), Pitch("Gb", 5),
-        Pitch("G", 5), Pitch("G#", 5), Pitch("Ab", 5),
-        Pitch("A", 5), Pitch("A#", 5), Pitch("Bb", 5),
-        Pitch("B", 5), Pitch("Cb", 5), Pitch("B#", 5),
+    # Pitches spanning C5 up to C7 (two full octaves)
+    pitch_names = [
+        # Unisons and seconds
+        "C", "C#", "Db", "D", "D#", "Eb",
+        # Thirds
+        "Ebb", "E", "Fb", "E#",
+        # Fourths
+        "F", "F#", "Gb",
+        # Fifths
+        "G", "G#", "Ab",
+        # Sixths
+        "A", "A#",
+        # Sevenths
+        "Bb", "Bbb", "B", "Cb", "B#6",
+        # Octaves
+        "C6", "C#6", "D6", "E6", "F6", "G6", "A6", "B6", "C7"
     ]
 
-    interval_names = [
-        "Perfect Unison", "Augmented Unison",
-        "Minor Second", "Major Second",
-        "Augmented Second", "Minor Third", "Major Third",
-        "Augmented Third", "Perfect Fourth", "Augmented Fourth",
-        "Diminished Fifth", "Perfect Fifth", "Augmented Fifth",
-        "Minor Sixth", "Major Sixth", "Augmented Sixth",
-        "Diminished Seventh", "Minor Seventh", "Major Seventh"
+    expected_names = [
+        "U", "AU", "m2", "M2", "A2", "m3",
+        "d3", "M3", "d4", "A3",
+        "P4", "A4", "d5",
+        "P5", "A5", "m6",
+        "M6", "A6",
+        "m7", "d7", "M7", "d8", "A7",
+        "P8", "A8", "M9", "M10", "P11",
+        "P12", "M13", "M14", "P15"
     ]
 
-    intervals = [
-        Interval(pitch1, pitch2) for pitch2 in pitches2
-    ]
+    # Convert pitch names to Pitch objects
+    def make_pitch(name):
+        if name[-1].isdigit():
+            if name[-2] in "#b":
+                return Pitch(name[:-1], int(name[-1]))
+            else:
+                return Pitch(name[:-1], int(name[-1]))
+        return Pitch(name, 5)
 
-    for interval, expected_name in zip(intervals, interval_names):
-        print(f"Interval: {interval.name}")
-        print(f"Notes: {interval.high}, {interval.low}")
-        assert interval.name == expected_name
+    pitches = [make_pitch(name) for name in pitch_names]
+    intervals = [Interval(base, p) for p in pitches]
+
+    for interval, expected in zip(intervals, expected_names):
+        # print(f"{interval.low} to {interval.high} → {interval.name}: {expected == interval.name}."
+        #       f" {interval.semitones}, {interval.letter_steps}")
+        assert interval.name == expected
+
+def test_add_interval():
+    base = Pitch("C", 5)
+
+    # Test adding intervals
+    new_pitch = apply_interval(base, Key("C"), "d5")
+    assert new_pitch == Pitch("Gb", 5)
+
+    new_pitch = apply_interval(base, Key("C"), "P5")
+    assert new_pitch == Pitch("G", 5)
+
+    new_pitch = apply_interval(base, Key("C"), "A5")
+    assert new_pitch == Pitch("G#", 5)
+
+    new_pitch = apply_interval(base, Key("C"), "P8")
+    assert new_pitch == Pitch("C", 6)
+
+    new_pitch = apply_interval(base, Key("C"), "A4")
+    assert new_pitch == Pitch("F#", 5)
+
+
+    # Test invalid interval
+    try:
+        apply_interval(base, Key("A"), "Invalid")
+    except ValueError as e:
+        assert str(e) == "Unsupported interval: Invalid"
+
+@pytest.mark.parametrize("root, quality, exp, mode", [
+    ("C", "major",      ["C", "E", "G"],        "major"),
+    ("D", "minor",      ["D", "F", "A"],        "minor"),
+    ("E", "diminished", ["E", "G", "Bb"],       "diminished"),
+    ("F", "augmented",  ["F", "A", "C#"],       "augmented"),
+    ("G", "suspended2", ["G", "A", "D"],        "major"),
+    ("A", "suspended4", ["A", "D", "E"],        "major"),
+    ("Ab", "major",     ["Ab", "C", "Eb"],      "major"),
+])
+def test_valid_triads(root, quality, exp, mode):
+    root = Pitch(root)
+    key = Key(str(root), mode)
+    triad = Triad(root, quality, key)
+
+    expected_notes = [Pitch(p) for p in exp]
+
+    assert triad.root == root
+    assert triad.quality == quality
+    assert triad.notes == expected_notes
+
+
+def test_invalid_quality():
+    with pytest.raises(ValueError) as exc_info:
+        Triad(Pitch("C"), "invalid_quality", Key("C"))
+    assert "Unsupported triad quality" in str(exc_info.value)
+
+@pytest.mark.parametrize("root, quality, exp, mode", [
+    ("C", "major7",      ["C", "E", "G", "B"],         "major"),
+    ("D", "dominant7",   ["D", "F#", "A", "C"],        "major"),
+    ("E", "minor7",      ["E", "G", "B", "D"],         "minor"),
+    ("F", "diminished7", ["F", "Ab", "Cb", "Ebb"],     "diminished"),
+    ("G", "half-diminished7", ["G", "Bb", "Db", "F"],  "minor"),
+    ("Ab", "minor-major7", ["Ab", "Cb", "Eb", "G"],    "minor"),
+])
+def test_valid_sevenths(root, quality, exp, mode):
+    root = Pitch(root)
+    key = Key(str(root), mode)
+    seventh = SeventhChord(root, quality, key)
+
+    expected_notes = [Pitch(p) for p in exp]
+
+    assert seventh.root == root
+    assert seventh.quality == quality
+    assert seventh.notes == expected_notes
+def test_invalid_seventh_quality():
+    with pytest.raises(ValueError) as exc_info:
+        SeventhChord(Pitch("C"), "invalid_quality", Key("C"))
+    assert "Unsupported 7th chord quality" in str(exc_info.value)
+
+@pytest.mark.parametrize("root, quality, exp, mode", [
+    ("C", "major9",      ["C", "E", "G", "B", "D"],        "major"),
+    ("D", "dominant9",   ["D", "F#", "A", "C", "E"],       "major"),
+    ("E", "minor9",      ["E", "G", "B", "D", "F#"],        "minor"),
+    ("F", "diminished9", ["F", "Ab", "Cb", "Ebb", "Gb"],     "diminished"),
+    ("G", "half-diminished9", ["G", "Bb", "Db", "F", "A"],  "minor"),
+])
+
+def test_valid_ninths(root, quality, exp, mode):
+    root = Pitch(root)
+    key = Key(str(root), mode)
+    ninth = NinthChord(root, quality, key)
+
+    expected_notes = [Pitch(p) for p in exp]
+
+    assert ninth.root == root
+    assert ninth.quality == quality
+    assert ninth.notes == expected_notes
+def test_invalid_ninth_quality():
+    with pytest.raises(ValueError) as exc_info:
+        NinthChord(Pitch("C"), "invalid_quality", Key("C"))
+    assert "Unsupported 9th chord quality" in str(exc_info.value)
+
+
 
 
 

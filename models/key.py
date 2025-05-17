@@ -1,4 +1,4 @@
-from models.note import Pitch, Interval
+from models import Pitch
 
 class Key:
     # Semitone patterns for each mode
@@ -10,7 +10,16 @@ class Key:
         "mixolydian": [2, 2, 1, 2, 2, 1, 2],
         "minor":      [2, 1, 2, 2, 1, 2, 2],  # Aeolian
         "aeolian":    [2, 1, 2, 2, 1, 2, 2],
-        "locrian":    [1, 2, 2, 1, 2, 2, 2]
+        "locrian":    [1, 2, 2, 1, 2, 2, 2],
+        "diminished": [1, 2, 1, 2, 1, 2, 1],
+        "augmented":  [2, 1, 2, 1, 2, 1, 2],
+        "whole_tone": [2, 2, 2, 2, 2, 2],     # Whole Tone
+        "chromatic":  [1] * 12,               # Chromatic
+        "blues":      [3, 2, 1, 1, 3, 2],     # Blues
+        "pentatonic": [2, 2, 3, 2, 3],        # Pentatonic
+        "natural_minor": [2, 1, 2, 2, 1, 2, 2], # Natural Minor
+        "harmonic_minor": [2, 1, 2, 2, 1, 3, 1], # Harmonic Minor
+        "melodic_minor": [2, 1, 2, 2, 2, 2, 1], # Melodic Minor
     }
 
     # Standard enharmonic spelling map for keys (especially minor)
