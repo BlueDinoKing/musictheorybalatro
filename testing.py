@@ -1,6 +1,7 @@
-from models import Key, Pitch, Interval, apply_interval, Chord, Triad, SeventhChord, NinthChord
+from models import *
 import pytest
 from pytest import main
+
 
 def test_key():
     """Case 1"""
@@ -204,10 +205,46 @@ def test_valid_ninths(root, quality, exp, mode):
     assert ninth.root == root
     assert ninth.quality == quality
     assert ninth.notes == expected_notes
+
+
 def test_invalid_ninth_quality():
     with pytest.raises(ValueError) as exc_info:
         NinthChord(Pitch("C"), "invalid_quality", Key("C"))
     assert "Unsupported 9th chord quality" in str(exc_info.value)
+
+def test_compliment():
+    interval = Interval(Pitch("C"), Pitch("Gb"))
+    assert interval.compliment() == Interval(Pitch("C"), Pitch("F#"))
+
+
+@pytest.mark.parametrize("expected_root, quality, notes, expected_type", [
+    # Exact matches
+    (Pitch("C"), "major", [Pitch("C"), Pitch("E"), Pitch("G")], Triad),
+    (Pitch("C"), "minor", [Pitch("C"), Pitch("Eb"), Pitch("G")], Triad),
+    (Pitch("D"), "augmented", [Pitch("D"), Pitch("F#"), Pitch("A#")], Triad),
+    (Pitch("F"), "major7", [Pitch("F"), Pitch("A"), Pitch("C"), Pitch("E")], SeventhChord),
+    (Pitch("G"), "dominant9", [Pitch("G"), Pitch("B"), Pitch("D"), Pitch("F"), Pitch("A")], NinthChord),
+
+    # Inversions
+    (Pitch("C"), "major", [Pitch("E"), Pitch("G"), Pitch("C")], Triad),
+    (Pitch("C"), "minor", [Pitch("Eb"), Pitch("G"), Pitch("C")], Triad),
+    (Pitch("F"), "major7", [Pitch("A"), Pitch("C"), Pitch("E"), Pitch("F")], SeventhChord),
+])
+def test_find_chord(expected_root, quality, notes, expected_type):
+    # Exact match
+    chord = find_chord(notes)
+    assert isinstance(chord, expected_type)
+    assert chord.root == expected_root
+    assert chord.quality == quality
+
+def test_generic_chord_fallback():
+    notes = [Pitch("C"), Pitch("D"), Pitch("F#")]  # doesn't match any known chord
+    chord = find_chord(notes)
+    assert isinstance(chord, GenericChord)
+
+
+
+
 
 
 

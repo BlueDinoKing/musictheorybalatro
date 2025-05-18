@@ -22,6 +22,11 @@ class Pitch:
         self.octave = octave
         self.pc = self.wheel[name]  # pitch class 0-11
         self.letter = name[0]
+        self.midi = self._calculate_midi() if octave is not None else None
+
+    def _calculate_midi(self) -> int:
+        """Calculate MIDI note number (C4=60, C#4=61, etc.)."""
+        return 12 * (self.octave + 1) + self.pc
 
     def __repr__(self):
         return f"{self.name}{'' if self.octave is None else self.octave}"
@@ -31,6 +36,7 @@ class Pitch:
 
     def letter_distance(self, other) -> int:
         return (Pitch.letters.index(other.letter) - Pitch.letters.index(self.letter)) % 7
+
 
     def __eq__(self, other):
         if isinstance(other, Pitch):

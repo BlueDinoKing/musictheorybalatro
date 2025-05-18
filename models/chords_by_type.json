@@ -1,0 +1,5142 @@
+{
+  "triad": {
+    "C": {
+      "major": {
+        "notes": [
+          "C",
+          "E",
+          "G"
+        ],
+        "semitones": [
+          0,
+          4,
+          7
+        ]
+      },
+      "minor": {
+        "notes": [
+          "C",
+          "Eb",
+          "G"
+        ],
+        "semitones": [
+          0,
+          3,
+          7
+        ]
+      },
+      "diminished": {
+        "notes": [
+          "C",
+          "Eb",
+          "Gb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6
+        ]
+      },
+      "augmented": {
+        "notes": [
+          "C",
+          "E",
+          "G#"
+        ],
+        "semitones": [
+          0,
+          4,
+          8
+        ]
+      },
+      "suspended2": {
+        "notes": [
+          "C",
+          "D",
+          "G"
+        ],
+        "semitones": [
+          0,
+          2,
+          7
+        ]
+      },
+      "suspended4": {
+        "notes": [
+          "C",
+          "F",
+          "G"
+        ],
+        "semitones": [
+          0,
+          5,
+          7
+        ]
+      }
+    },
+    "C#": {
+      "major": {
+        "notes": [
+          "C#",
+          "E#",
+          "G#"
+        ],
+        "semitones": [
+          0,
+          4,
+          7
+        ]
+      },
+      "minor": {
+        "notes": [
+          "C#",
+          "E",
+          "G#"
+        ],
+        "semitones": [
+          0,
+          3,
+          7
+        ]
+      },
+      "diminished": {
+        "notes": [
+          "C#",
+          "E",
+          "G"
+        ],
+        "semitones": [
+          0,
+          3,
+          6
+        ]
+      },
+      "augmented": {
+        "notes": [
+          "C#",
+          "E#",
+          "G##"
+        ],
+        "semitones": [
+          0,
+          4,
+          8
+        ]
+      },
+      "suspended2": {
+        "notes": [
+          "C#",
+          "D#",
+          "G#"
+        ],
+        "semitones": [
+          0,
+          2,
+          7
+        ]
+      },
+      "suspended4": {
+        "notes": [
+          "C#",
+          "F#",
+          "G#"
+        ],
+        "semitones": [
+          0,
+          5,
+          7
+        ]
+      }
+    },
+    "Db": {
+      "major": {
+        "notes": [
+          "Db",
+          "F",
+          "Ab"
+        ],
+        "semitones": [
+          0,
+          4,
+          7
+        ]
+      },
+      "minor": {
+        "notes": [
+          "Db",
+          "Fb",
+          "Ab"
+        ],
+        "semitones": [
+          0,
+          3,
+          7
+        ]
+      },
+      "diminished": {
+        "notes": [
+          "Db",
+          "Fb",
+          "Abb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6
+        ]
+      },
+      "augmented": {
+        "notes": [
+          "Db",
+          "F",
+          "A"
+        ],
+        "semitones": [
+          0,
+          4,
+          8
+        ]
+      },
+      "suspended2": {
+        "notes": [
+          "Db",
+          "Eb",
+          "Ab"
+        ],
+        "semitones": [
+          0,
+          2,
+          7
+        ]
+      },
+      "suspended4": {
+        "notes": [
+          "Db",
+          "Gb",
+          "Ab"
+        ],
+        "semitones": [
+          0,
+          5,
+          7
+        ]
+      }
+    },
+    "D": {
+      "major": {
+        "notes": [
+          "D",
+          "F#",
+          "A"
+        ],
+        "semitones": [
+          0,
+          4,
+          7
+        ]
+      },
+      "minor": {
+        "notes": [
+          "D",
+          "F",
+          "A"
+        ],
+        "semitones": [
+          0,
+          3,
+          7
+        ]
+      },
+      "diminished": {
+        "notes": [
+          "D",
+          "F",
+          "Ab"
+        ],
+        "semitones": [
+          0,
+          3,
+          6
+        ]
+      },
+      "augmented": {
+        "notes": [
+          "D",
+          "F#",
+          "A#"
+        ],
+        "semitones": [
+          0,
+          4,
+          8
+        ]
+      },
+      "suspended2": {
+        "notes": [
+          "D",
+          "E",
+          "A"
+        ],
+        "semitones": [
+          0,
+          2,
+          7
+        ]
+      },
+      "suspended4": {
+        "notes": [
+          "D",
+          "G",
+          "A"
+        ],
+        "semitones": [
+          0,
+          5,
+          7
+        ]
+      }
+    },
+    "D#": {
+      "major": {
+        "notes": [
+          "D#",
+          "F##",
+          "A#"
+        ],
+        "semitones": [
+          0,
+          4,
+          7
+        ]
+      },
+      "minor": {
+        "notes": [
+          "D#",
+          "F#",
+          "A#"
+        ],
+        "semitones": [
+          0,
+          3,
+          7
+        ]
+      },
+      "diminished": {
+        "notes": [
+          "D#",
+          "F#",
+          "A"
+        ],
+        "semitones": [
+          0,
+          3,
+          6
+        ]
+      },
+      "augmented": {
+        "notes": [
+          "D#",
+          "F##",
+          "A##"
+        ],
+        "semitones": [
+          0,
+          4,
+          8
+        ]
+      },
+      "suspended2": {
+        "notes": [
+          "D#",
+          "E#",
+          "A#"
+        ],
+        "semitones": [
+          0,
+          2,
+          7
+        ]
+      },
+      "suspended4": {
+        "notes": [
+          "D#",
+          "G#",
+          "A#"
+        ],
+        "semitones": [
+          0,
+          5,
+          7
+        ]
+      }
+    },
+    "Eb": {
+      "major": {
+        "notes": [
+          "Eb",
+          "G",
+          "Bb"
+        ],
+        "semitones": [
+          0,
+          4,
+          7
+        ]
+      },
+      "minor": {
+        "notes": [
+          "Eb",
+          "Gb",
+          "Bb"
+        ],
+        "semitones": [
+          0,
+          3,
+          7
+        ]
+      },
+      "diminished": {
+        "notes": [
+          "Eb",
+          "Gb",
+          "Bbb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6
+        ]
+      },
+      "augmented": {
+        "notes": [
+          "Eb",
+          "G",
+          "B"
+        ],
+        "semitones": [
+          0,
+          4,
+          8
+        ]
+      },
+      "suspended2": {
+        "notes": [
+          "Eb",
+          "F",
+          "Bb"
+        ],
+        "semitones": [
+          0,
+          2,
+          7
+        ]
+      },
+      "suspended4": {
+        "notes": [
+          "Eb",
+          "Ab",
+          "Bb"
+        ],
+        "semitones": [
+          0,
+          5,
+          7
+        ]
+      }
+    },
+    "E": {
+      "major": {
+        "notes": [
+          "E",
+          "G#",
+          "B"
+        ],
+        "semitones": [
+          0,
+          4,
+          7
+        ]
+      },
+      "minor": {
+        "notes": [
+          "E",
+          "G",
+          "B"
+        ],
+        "semitones": [
+          0,
+          3,
+          7
+        ]
+      },
+      "diminished": {
+        "notes": [
+          "E",
+          "G",
+          "Bb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6
+        ]
+      },
+      "augmented": {
+        "notes": [
+          "E",
+          "G#",
+          "B#"
+        ],
+        "semitones": [
+          0,
+          4,
+          8
+        ]
+      },
+      "suspended2": {
+        "notes": [
+          "E",
+          "F#",
+          "B"
+        ],
+        "semitones": [
+          0,
+          2,
+          7
+        ]
+      },
+      "suspended4": {
+        "notes": [
+          "E",
+          "A",
+          "B"
+        ],
+        "semitones": [
+          0,
+          5,
+          7
+        ]
+      }
+    },
+    "F": {
+      "major": {
+        "notes": [
+          "F",
+          "A",
+          "C"
+        ],
+        "semitones": [
+          0,
+          4,
+          7
+        ]
+      },
+      "minor": {
+        "notes": [
+          "F",
+          "Ab",
+          "C"
+        ],
+        "semitones": [
+          0,
+          3,
+          7
+        ]
+      },
+      "diminished": {
+        "notes": [
+          "F",
+          "Ab",
+          "Cb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6
+        ]
+      },
+      "augmented": {
+        "notes": [
+          "F",
+          "A",
+          "C#"
+        ],
+        "semitones": [
+          0,
+          4,
+          8
+        ]
+      },
+      "suspended2": {
+        "notes": [
+          "F",
+          "G",
+          "C"
+        ],
+        "semitones": [
+          0,
+          2,
+          7
+        ]
+      },
+      "suspended4": {
+        "notes": [
+          "F",
+          "Bb",
+          "C"
+        ],
+        "semitones": [
+          0,
+          5,
+          7
+        ]
+      }
+    },
+    "F#": {
+      "major": {
+        "notes": [
+          "F#",
+          "A#",
+          "C#"
+        ],
+        "semitones": [
+          0,
+          4,
+          7
+        ]
+      },
+      "minor": {
+        "notes": [
+          "F#",
+          "A",
+          "C#"
+        ],
+        "semitones": [
+          0,
+          3,
+          7
+        ]
+      },
+      "diminished": {
+        "notes": [
+          "F#",
+          "A",
+          "C"
+        ],
+        "semitones": [
+          0,
+          3,
+          6
+        ]
+      },
+      "augmented": {
+        "notes": [
+          "F#",
+          "A#",
+          "C##"
+        ],
+        "semitones": [
+          0,
+          4,
+          8
+        ]
+      },
+      "suspended2": {
+        "notes": [
+          "F#",
+          "G#",
+          "C#"
+        ],
+        "semitones": [
+          0,
+          2,
+          7
+        ]
+      },
+      "suspended4": {
+        "notes": [
+          "F#",
+          "B",
+          "C#"
+        ],
+        "semitones": [
+          0,
+          5,
+          7
+        ]
+      }
+    },
+    "Gb": {
+      "major": {
+        "notes": [
+          "Gb",
+          "Bb",
+          "Db"
+        ],
+        "semitones": [
+          0,
+          4,
+          7
+        ]
+      },
+      "minor": {
+        "notes": [
+          "Gb",
+          "Bbb",
+          "Db"
+        ],
+        "semitones": [
+          0,
+          3,
+          7
+        ]
+      },
+      "diminished": {
+        "notes": [
+          "Gb",
+          "Bbb",
+          "Dbb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6
+        ]
+      },
+      "augmented": {
+        "notes": [
+          "Gb",
+          "Bb",
+          "D"
+        ],
+        "semitones": [
+          0,
+          4,
+          8
+        ]
+      },
+      "suspended2": {
+        "notes": [
+          "Gb",
+          "Ab",
+          "Db"
+        ],
+        "semitones": [
+          0,
+          2,
+          7
+        ]
+      },
+      "suspended4": {
+        "notes": [
+          "Gb",
+          "Cb",
+          "Db"
+        ],
+        "semitones": [
+          0,
+          5,
+          7
+        ]
+      }
+    },
+    "G": {
+      "major": {
+        "notes": [
+          "G",
+          "B",
+          "D"
+        ],
+        "semitones": [
+          0,
+          4,
+          7
+        ]
+      },
+      "minor": {
+        "notes": [
+          "G",
+          "Bb",
+          "D"
+        ],
+        "semitones": [
+          0,
+          3,
+          7
+        ]
+      },
+      "diminished": {
+        "notes": [
+          "G",
+          "Bb",
+          "Db"
+        ],
+        "semitones": [
+          0,
+          3,
+          6
+        ]
+      },
+      "augmented": {
+        "notes": [
+          "G",
+          "B",
+          "D#"
+        ],
+        "semitones": [
+          0,
+          4,
+          8
+        ]
+      },
+      "suspended2": {
+        "notes": [
+          "G",
+          "A",
+          "D"
+        ],
+        "semitones": [
+          0,
+          2,
+          7
+        ]
+      },
+      "suspended4": {
+        "notes": [
+          "G",
+          "C",
+          "D"
+        ],
+        "semitones": [
+          0,
+          5,
+          7
+        ]
+      }
+    },
+    "G#": {
+      "major": {
+        "notes": [
+          "G#",
+          "B#",
+          "D#"
+        ],
+        "semitones": [
+          0,
+          4,
+          7
+        ]
+      },
+      "minor": {
+        "notes": [
+          "G#",
+          "B",
+          "D#"
+        ],
+        "semitones": [
+          0,
+          3,
+          7
+        ]
+      },
+      "diminished": {
+        "notes": [
+          "G#",
+          "B",
+          "D"
+        ],
+        "semitones": [
+          0,
+          3,
+          6
+        ]
+      },
+      "augmented": {
+        "notes": [
+          "G#",
+          "B#",
+          "D##"
+        ],
+        "semitones": [
+          0,
+          4,
+          8
+        ]
+      },
+      "suspended2": {
+        "notes": [
+          "G#",
+          "A#",
+          "D#"
+        ],
+        "semitones": [
+          0,
+          2,
+          7
+        ]
+      },
+      "suspended4": {
+        "notes": [
+          "G#",
+          "C#",
+          "D#"
+        ],
+        "semitones": [
+          0,
+          5,
+          7
+        ]
+      }
+    },
+    "Ab": {
+      "major": {
+        "notes": [
+          "Ab",
+          "C",
+          "Eb"
+        ],
+        "semitones": [
+          0,
+          4,
+          7
+        ]
+      },
+      "minor": {
+        "notes": [
+          "Ab",
+          "Cb",
+          "Eb"
+        ],
+        "semitones": [
+          0,
+          3,
+          7
+        ]
+      },
+      "diminished": {
+        "notes": [
+          "Ab",
+          "Cb",
+          "Ebb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6
+        ]
+      },
+      "augmented": {
+        "notes": [
+          "Ab",
+          "C",
+          "E"
+        ],
+        "semitones": [
+          0,
+          4,
+          8
+        ]
+      },
+      "suspended2": {
+        "notes": [
+          "Ab",
+          "Bb",
+          "Eb"
+        ],
+        "semitones": [
+          0,
+          2,
+          7
+        ]
+      },
+      "suspended4": {
+        "notes": [
+          "Ab",
+          "Db",
+          "Eb"
+        ],
+        "semitones": [
+          0,
+          5,
+          7
+        ]
+      }
+    },
+    "A": {
+      "major": {
+        "notes": [
+          "A",
+          "C#",
+          "E"
+        ],
+        "semitones": [
+          0,
+          4,
+          7
+        ]
+      },
+      "minor": {
+        "notes": [
+          "A",
+          "C",
+          "E"
+        ],
+        "semitones": [
+          0,
+          3,
+          7
+        ]
+      },
+      "diminished": {
+        "notes": [
+          "A",
+          "C",
+          "Eb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6
+        ]
+      },
+      "augmented": {
+        "notes": [
+          "A",
+          "C#",
+          "E#"
+        ],
+        "semitones": [
+          0,
+          4,
+          8
+        ]
+      },
+      "suspended2": {
+        "notes": [
+          "A",
+          "B",
+          "E"
+        ],
+        "semitones": [
+          0,
+          2,
+          7
+        ]
+      },
+      "suspended4": {
+        "notes": [
+          "A",
+          "D",
+          "E"
+        ],
+        "semitones": [
+          0,
+          5,
+          7
+        ]
+      }
+    },
+    "A#": {
+      "major": {
+        "notes": [
+          "A#",
+          "C##",
+          "E#"
+        ],
+        "semitones": [
+          0,
+          4,
+          7
+        ]
+      },
+      "minor": {
+        "notes": [
+          "A#",
+          "C#",
+          "E#"
+        ],
+        "semitones": [
+          0,
+          3,
+          7
+        ]
+      },
+      "diminished": {
+        "notes": [
+          "A#",
+          "C#",
+          "E"
+        ],
+        "semitones": [
+          0,
+          3,
+          6
+        ]
+      },
+      "augmented": {
+        "notes": [
+          "A#",
+          "C##",
+          "E##"
+        ],
+        "semitones": [
+          0,
+          4,
+          8
+        ]
+      },
+      "suspended2": {
+        "notes": [
+          "A#",
+          "B#",
+          "E#"
+        ],
+        "semitones": [
+          0,
+          2,
+          7
+        ]
+      },
+      "suspended4": {
+        "notes": [
+          "A#",
+          "D#",
+          "E#"
+        ],
+        "semitones": [
+          0,
+          5,
+          7
+        ]
+      }
+    },
+    "Bb": {
+      "major": {
+        "notes": [
+          "Bb",
+          "D",
+          "F"
+        ],
+        "semitones": [
+          0,
+          4,
+          7
+        ]
+      },
+      "minor": {
+        "notes": [
+          "Bb",
+          "Db",
+          "F"
+        ],
+        "semitones": [
+          0,
+          3,
+          7
+        ]
+      },
+      "diminished": {
+        "notes": [
+          "Bb",
+          "Db",
+          "Fb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6
+        ]
+      },
+      "augmented": {
+        "notes": [
+          "Bb",
+          "D",
+          "F#"
+        ],
+        "semitones": [
+          0,
+          4,
+          8
+        ]
+      },
+      "suspended2": {
+        "notes": [
+          "Bb",
+          "C",
+          "F"
+        ],
+        "semitones": [
+          0,
+          2,
+          7
+        ]
+      },
+      "suspended4": {
+        "notes": [
+          "Bb",
+          "Eb",
+          "F"
+        ],
+        "semitones": [
+          0,
+          5,
+          7
+        ]
+      }
+    },
+    "B": {
+      "major": {
+        "notes": [
+          "B",
+          "D#",
+          "F#"
+        ],
+        "semitones": [
+          0,
+          4,
+          7
+        ]
+      },
+      "minor": {
+        "notes": [
+          "B",
+          "D",
+          "F#"
+        ],
+        "semitones": [
+          0,
+          3,
+          7
+        ]
+      },
+      "diminished": {
+        "notes": [
+          "B",
+          "D",
+          "F"
+        ],
+        "semitones": [
+          0,
+          3,
+          6
+        ]
+      },
+      "augmented": {
+        "notes": [
+          "B",
+          "D#",
+          "F##"
+        ],
+        "semitones": [
+          0,
+          4,
+          8
+        ]
+      },
+      "suspended2": {
+        "notes": [
+          "B",
+          "C#",
+          "F#"
+        ],
+        "semitones": [
+          0,
+          2,
+          7
+        ]
+      },
+      "suspended4": {
+        "notes": [
+          "B",
+          "E",
+          "F#"
+        ],
+        "semitones": [
+          0,
+          5,
+          7
+        ]
+      }
+    }
+  },
+  "seventh": {
+    "C": {
+      "major7": {
+        "notes": [
+          "C",
+          "E",
+          "G",
+          "B"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant7": {
+        "notes": [
+          "C",
+          "E",
+          "G",
+          "Bb"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor7": {
+        "notes": [
+          "C",
+          "Eb",
+          "G",
+          "Bb"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          10
+        ]
+      },
+      "diminished7": {
+        "notes": [
+          "C",
+          "Eb",
+          "Gb",
+          "Bbb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished7": {
+        "notes": [
+          "C",
+          "Eb",
+          "Gb",
+          "Bb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major7": {
+        "notes": [
+          "C",
+          "Eb",
+          "G",
+          "B"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented7": {
+        "notes": [
+          "C",
+          "E",
+          "G#",
+          "Bb"
+        ],
+        "semitones": [
+          0,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "C#": {
+      "major7": {
+        "notes": [
+          "C#",
+          "E#",
+          "G#",
+          "B#"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant7": {
+        "notes": [
+          "C#",
+          "E#",
+          "G#",
+          "B"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor7": {
+        "notes": [
+          "C#",
+          "E",
+          "G#",
+          "B"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          10
+        ]
+      },
+      "diminished7": {
+        "notes": [
+          "C#",
+          "E",
+          "G",
+          "Bb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished7": {
+        "notes": [
+          "C#",
+          "E",
+          "G",
+          "B"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major7": {
+        "notes": [
+          "C#",
+          "E",
+          "G#",
+          "B#"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented7": {
+        "notes": [
+          "C#",
+          "E#",
+          "G##",
+          "B"
+        ],
+        "semitones": [
+          0,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "Db": {
+      "major7": {
+        "notes": [
+          "Db",
+          "F",
+          "Ab",
+          "C"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant7": {
+        "notes": [
+          "Db",
+          "F",
+          "Ab",
+          "Cb"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor7": {
+        "notes": [
+          "Db",
+          "Fb",
+          "Ab",
+          "Cb"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          10
+        ]
+      },
+      "diminished7": {
+        "notes": [
+          "Db",
+          "Fb",
+          "Abb",
+          "Cbb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished7": {
+        "notes": [
+          "Db",
+          "Fb",
+          "Abb",
+          "Cb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major7": {
+        "notes": [
+          "Db",
+          "Fb",
+          "Ab",
+          "C"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented7": {
+        "notes": [
+          "Db",
+          "F",
+          "A",
+          "Cb"
+        ],
+        "semitones": [
+          0,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "D": {
+      "major7": {
+        "notes": [
+          "D",
+          "F#",
+          "A",
+          "C#"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant7": {
+        "notes": [
+          "D",
+          "F#",
+          "A",
+          "C"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor7": {
+        "notes": [
+          "D",
+          "F",
+          "A",
+          "C"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          10
+        ]
+      },
+      "diminished7": {
+        "notes": [
+          "D",
+          "F",
+          "Ab",
+          "Cb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished7": {
+        "notes": [
+          "D",
+          "F",
+          "Ab",
+          "C"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major7": {
+        "notes": [
+          "D",
+          "F",
+          "A",
+          "C#"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented7": {
+        "notes": [
+          "D",
+          "F#",
+          "A#",
+          "C"
+        ],
+        "semitones": [
+          0,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "D#": {
+      "major7": {
+        "notes": [
+          "D#",
+          "F##",
+          "A#",
+          "C##"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant7": {
+        "notes": [
+          "D#",
+          "F##",
+          "A#",
+          "C#"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor7": {
+        "notes": [
+          "D#",
+          "F#",
+          "A#",
+          "C#"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          10
+        ]
+      },
+      "diminished7": {
+        "notes": [
+          "D#",
+          "F#",
+          "A",
+          "C"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished7": {
+        "notes": [
+          "D#",
+          "F#",
+          "A",
+          "C#"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major7": {
+        "notes": [
+          "D#",
+          "F#",
+          "A#",
+          "C##"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented7": {
+        "notes": [
+          "D#",
+          "F##",
+          "A##",
+          "C#"
+        ],
+        "semitones": [
+          0,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "Eb": {
+      "major7": {
+        "notes": [
+          "Eb",
+          "G",
+          "Bb",
+          "D"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant7": {
+        "notes": [
+          "Eb",
+          "G",
+          "Bb",
+          "Db"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor7": {
+        "notes": [
+          "Eb",
+          "Gb",
+          "Bb",
+          "Db"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          10
+        ]
+      },
+      "diminished7": {
+        "notes": [
+          "Eb",
+          "Gb",
+          "Bbb",
+          "Dbb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished7": {
+        "notes": [
+          "Eb",
+          "Gb",
+          "Bbb",
+          "Db"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major7": {
+        "notes": [
+          "Eb",
+          "Gb",
+          "Bb",
+          "D"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented7": {
+        "notes": [
+          "Eb",
+          "G",
+          "B",
+          "Db"
+        ],
+        "semitones": [
+          0,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "E": {
+      "major7": {
+        "notes": [
+          "E",
+          "G#",
+          "B",
+          "D#"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant7": {
+        "notes": [
+          "E",
+          "G#",
+          "B",
+          "D"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor7": {
+        "notes": [
+          "E",
+          "G",
+          "B",
+          "D"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          10
+        ]
+      },
+      "diminished7": {
+        "notes": [
+          "E",
+          "G",
+          "Bb",
+          "Db"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished7": {
+        "notes": [
+          "E",
+          "G",
+          "Bb",
+          "D"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major7": {
+        "notes": [
+          "E",
+          "G",
+          "B",
+          "D#"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented7": {
+        "notes": [
+          "E",
+          "G#",
+          "B#",
+          "D"
+        ],
+        "semitones": [
+          0,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "F": {
+      "major7": {
+        "notes": [
+          "F",
+          "A",
+          "C",
+          "E"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant7": {
+        "notes": [
+          "F",
+          "A",
+          "C",
+          "Eb"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor7": {
+        "notes": [
+          "F",
+          "Ab",
+          "C",
+          "Eb"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          10
+        ]
+      },
+      "diminished7": {
+        "notes": [
+          "F",
+          "Ab",
+          "Cb",
+          "Ebb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished7": {
+        "notes": [
+          "F",
+          "Ab",
+          "Cb",
+          "Eb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major7": {
+        "notes": [
+          "F",
+          "Ab",
+          "C",
+          "E"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented7": {
+        "notes": [
+          "F",
+          "A",
+          "C#",
+          "Eb"
+        ],
+        "semitones": [
+          0,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "F#": {
+      "major7": {
+        "notes": [
+          "F#",
+          "A#",
+          "C#",
+          "E#"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant7": {
+        "notes": [
+          "F#",
+          "A#",
+          "C#",
+          "E"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor7": {
+        "notes": [
+          "F#",
+          "A",
+          "C#",
+          "E"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          10
+        ]
+      },
+      "diminished7": {
+        "notes": [
+          "F#",
+          "A",
+          "C",
+          "Eb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished7": {
+        "notes": [
+          "F#",
+          "A",
+          "C",
+          "E"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major7": {
+        "notes": [
+          "F#",
+          "A",
+          "C#",
+          "E#"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented7": {
+        "notes": [
+          "F#",
+          "A#",
+          "C##",
+          "E"
+        ],
+        "semitones": [
+          0,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "Gb": {
+      "major7": {
+        "notes": [
+          "Gb",
+          "Bb",
+          "Db",
+          "F"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant7": {
+        "notes": [
+          "Gb",
+          "Bb",
+          "Db",
+          "Fb"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor7": {
+        "notes": [
+          "Gb",
+          "Bbb",
+          "Db",
+          "Fb"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          10
+        ]
+      },
+      "diminished7": {
+        "notes": [
+          "Gb",
+          "Bbb",
+          "Dbb",
+          "Fbb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished7": {
+        "notes": [
+          "Gb",
+          "Bbb",
+          "Dbb",
+          "Fb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major7": {
+        "notes": [
+          "Gb",
+          "Bbb",
+          "Db",
+          "F"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented7": {
+        "notes": [
+          "Gb",
+          "Bb",
+          "D",
+          "Fb"
+        ],
+        "semitones": [
+          0,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "G": {
+      "major7": {
+        "notes": [
+          "G",
+          "B",
+          "D",
+          "F#"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant7": {
+        "notes": [
+          "G",
+          "B",
+          "D",
+          "F"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor7": {
+        "notes": [
+          "G",
+          "Bb",
+          "D",
+          "F"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          10
+        ]
+      },
+      "diminished7": {
+        "notes": [
+          "G",
+          "Bb",
+          "Db",
+          "Fb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished7": {
+        "notes": [
+          "G",
+          "Bb",
+          "Db",
+          "F"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major7": {
+        "notes": [
+          "G",
+          "Bb",
+          "D",
+          "F#"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented7": {
+        "notes": [
+          "G",
+          "B",
+          "D#",
+          "F"
+        ],
+        "semitones": [
+          0,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "G#": {
+      "major7": {
+        "notes": [
+          "G#",
+          "B#",
+          "D#",
+          "F##"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant7": {
+        "notes": [
+          "G#",
+          "B#",
+          "D#",
+          "F#"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor7": {
+        "notes": [
+          "G#",
+          "B",
+          "D#",
+          "F#"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          10
+        ]
+      },
+      "diminished7": {
+        "notes": [
+          "G#",
+          "B",
+          "D",
+          "F"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished7": {
+        "notes": [
+          "G#",
+          "B",
+          "D",
+          "F#"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major7": {
+        "notes": [
+          "G#",
+          "B",
+          "D#",
+          "F##"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented7": {
+        "notes": [
+          "G#",
+          "B#",
+          "D##",
+          "F#"
+        ],
+        "semitones": [
+          0,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "Ab": {
+      "major7": {
+        "notes": [
+          "Ab",
+          "C",
+          "Eb",
+          "G"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant7": {
+        "notes": [
+          "Ab",
+          "C",
+          "Eb",
+          "Gb"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor7": {
+        "notes": [
+          "Ab",
+          "Cb",
+          "Eb",
+          "Gb"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          10
+        ]
+      },
+      "diminished7": {
+        "notes": [
+          "Ab",
+          "Cb",
+          "Ebb",
+          "Gbb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished7": {
+        "notes": [
+          "Ab",
+          "Cb",
+          "Ebb",
+          "Gb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major7": {
+        "notes": [
+          "Ab",
+          "Cb",
+          "Eb",
+          "G"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented7": {
+        "notes": [
+          "Ab",
+          "C",
+          "E",
+          "Gb"
+        ],
+        "semitones": [
+          0,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "A": {
+      "major7": {
+        "notes": [
+          "A",
+          "C#",
+          "E",
+          "G#"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant7": {
+        "notes": [
+          "A",
+          "C#",
+          "E",
+          "G"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor7": {
+        "notes": [
+          "A",
+          "C",
+          "E",
+          "G"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          10
+        ]
+      },
+      "diminished7": {
+        "notes": [
+          "A",
+          "C",
+          "Eb",
+          "Gb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished7": {
+        "notes": [
+          "A",
+          "C",
+          "Eb",
+          "G"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major7": {
+        "notes": [
+          "A",
+          "C",
+          "E",
+          "G#"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented7": {
+        "notes": [
+          "A",
+          "C#",
+          "E#",
+          "G"
+        ],
+        "semitones": [
+          0,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "A#": {
+      "major7": {
+        "notes": [
+          "A#",
+          "C##",
+          "E#",
+          "G##"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant7": {
+        "notes": [
+          "A#",
+          "C##",
+          "E#",
+          "G#"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor7": {
+        "notes": [
+          "A#",
+          "C#",
+          "E#",
+          "G#"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          10
+        ]
+      },
+      "diminished7": {
+        "notes": [
+          "A#",
+          "C#",
+          "E",
+          "G"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished7": {
+        "notes": [
+          "A#",
+          "C#",
+          "E",
+          "G#"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major7": {
+        "notes": [
+          "A#",
+          "C#",
+          "E#",
+          "G##"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented7": {
+        "notes": [
+          "A#",
+          "C##",
+          "E##",
+          "G#"
+        ],
+        "semitones": [
+          0,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "Bb": {
+      "major7": {
+        "notes": [
+          "Bb",
+          "D",
+          "F",
+          "A"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant7": {
+        "notes": [
+          "Bb",
+          "D",
+          "F",
+          "Ab"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor7": {
+        "notes": [
+          "Bb",
+          "Db",
+          "F",
+          "Ab"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          10
+        ]
+      },
+      "diminished7": {
+        "notes": [
+          "Bb",
+          "Db",
+          "Fb",
+          "Abb"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished7": {
+        "notes": [
+          "Bb",
+          "Db",
+          "Fb",
+          "Ab"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major7": {
+        "notes": [
+          "Bb",
+          "Db",
+          "F",
+          "A"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented7": {
+        "notes": [
+          "Bb",
+          "D",
+          "F#",
+          "Ab"
+        ],
+        "semitones": [
+          0,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "B": {
+      "major7": {
+        "notes": [
+          "B",
+          "D#",
+          "F#",
+          "A#"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant7": {
+        "notes": [
+          "B",
+          "D#",
+          "F#",
+          "A"
+        ],
+        "semitones": [
+          0,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor7": {
+        "notes": [
+          "B",
+          "D",
+          "F#",
+          "A"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          10
+        ]
+      },
+      "diminished7": {
+        "notes": [
+          "B",
+          "D",
+          "F",
+          "Ab"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished7": {
+        "notes": [
+          "B",
+          "D",
+          "F",
+          "A"
+        ],
+        "semitones": [
+          0,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major7": {
+        "notes": [
+          "B",
+          "D",
+          "F#",
+          "A#"
+        ],
+        "semitones": [
+          0,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented7": {
+        "notes": [
+          "B",
+          "D#",
+          "F##",
+          "A"
+        ],
+        "semitones": [
+          0,
+          4,
+          8,
+          10
+        ]
+      }
+    }
+  },
+  "ninth": {
+    "C": {
+      "major9": {
+        "notes": [
+          "C",
+          "E",
+          "G",
+          "B",
+          "D"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant9": {
+        "notes": [
+          "C",
+          "E",
+          "G",
+          "Bb",
+          "D"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor9": {
+        "notes": [
+          "C",
+          "Eb",
+          "G",
+          "Bb",
+          "D"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          10
+        ]
+      },
+      "add9": {
+        "notes": [
+          "C",
+          "E",
+          "G",
+          "D"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7
+        ]
+      },
+      "diminished9": {
+        "notes": [
+          "C",
+          "Eb",
+          "Gb",
+          "Bbb",
+          "Db"
+        ],
+        "semitones": [
+          0,
+          1,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished9": {
+        "notes": [
+          "C",
+          "Eb",
+          "Gb",
+          "Bb",
+          "D"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major9": {
+        "notes": [
+          "C",
+          "Eb",
+          "G",
+          "B",
+          "D"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented9": {
+        "notes": [
+          "C",
+          "E",
+          "G#",
+          "Bb",
+          "D"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "C#": {
+      "major9": {
+        "notes": [
+          "C#",
+          "E#",
+          "G#",
+          "B#",
+          "D#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant9": {
+        "notes": [
+          "C#",
+          "E#",
+          "G#",
+          "B",
+          "D#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor9": {
+        "notes": [
+          "C#",
+          "E",
+          "G#",
+          "B",
+          "D#"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          10
+        ]
+      },
+      "add9": {
+        "notes": [
+          "C#",
+          "E#",
+          "G#",
+          "D#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7
+        ]
+      },
+      "diminished9": {
+        "notes": [
+          "C#",
+          "E",
+          "G",
+          "Bb",
+          "D"
+        ],
+        "semitones": [
+          0,
+          1,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished9": {
+        "notes": [
+          "C#",
+          "E",
+          "G",
+          "B",
+          "D#"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major9": {
+        "notes": [
+          "C#",
+          "E",
+          "G#",
+          "B#",
+          "D#"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented9": {
+        "notes": [
+          "C#",
+          "E#",
+          "G##",
+          "B",
+          "D#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "Db": {
+      "major9": {
+        "notes": [
+          "Db",
+          "F",
+          "Ab",
+          "C",
+          "Eb"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant9": {
+        "notes": [
+          "Db",
+          "F",
+          "Ab",
+          "Cb",
+          "Eb"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor9": {
+        "notes": [
+          "Db",
+          "Fb",
+          "Ab",
+          "Cb",
+          "Eb"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          10
+        ]
+      },
+      "add9": {
+        "notes": [
+          "Db",
+          "F",
+          "Ab",
+          "Eb"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7
+        ]
+      },
+      "diminished9": {
+        "notes": [
+          "Db",
+          "Fb",
+          "Abb",
+          "Cbb",
+          "Ebb"
+        ],
+        "semitones": [
+          0,
+          1,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished9": {
+        "notes": [
+          "Db",
+          "Fb",
+          "Abb",
+          "Cb",
+          "Eb"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major9": {
+        "notes": [
+          "Db",
+          "Fb",
+          "Ab",
+          "C",
+          "Eb"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented9": {
+        "notes": [
+          "Db",
+          "F",
+          "A",
+          "Cb",
+          "Eb"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "D": {
+      "major9": {
+        "notes": [
+          "D",
+          "F#",
+          "A",
+          "C#",
+          "E"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant9": {
+        "notes": [
+          "D",
+          "F#",
+          "A",
+          "C",
+          "E"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor9": {
+        "notes": [
+          "D",
+          "F",
+          "A",
+          "C",
+          "E"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          10
+        ]
+      },
+      "add9": {
+        "notes": [
+          "D",
+          "F#",
+          "A",
+          "E"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7
+        ]
+      },
+      "diminished9": {
+        "notes": [
+          "D",
+          "F",
+          "Ab",
+          "Cb",
+          "Eb"
+        ],
+        "semitones": [
+          0,
+          1,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished9": {
+        "notes": [
+          "D",
+          "F",
+          "Ab",
+          "C",
+          "E"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major9": {
+        "notes": [
+          "D",
+          "F",
+          "A",
+          "C#",
+          "E"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented9": {
+        "notes": [
+          "D",
+          "F#",
+          "A#",
+          "C",
+          "E"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "D#": {
+      "major9": {
+        "notes": [
+          "D#",
+          "F##",
+          "A#",
+          "C##",
+          "E#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant9": {
+        "notes": [
+          "D#",
+          "F##",
+          "A#",
+          "C#",
+          "E#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor9": {
+        "notes": [
+          "D#",
+          "F#",
+          "A#",
+          "C#",
+          "E#"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          10
+        ]
+      },
+      "add9": {
+        "notes": [
+          "D#",
+          "F##",
+          "A#",
+          "E#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7
+        ]
+      },
+      "diminished9": {
+        "notes": [
+          "D#",
+          "F#",
+          "A",
+          "C",
+          "E"
+        ],
+        "semitones": [
+          0,
+          1,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished9": {
+        "notes": [
+          "D#",
+          "F#",
+          "A",
+          "C#",
+          "E#"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major9": {
+        "notes": [
+          "D#",
+          "F#",
+          "A#",
+          "C##",
+          "E#"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented9": {
+        "notes": [
+          "D#",
+          "F##",
+          "A##",
+          "C#",
+          "E#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "Eb": {
+      "major9": {
+        "notes": [
+          "Eb",
+          "G",
+          "Bb",
+          "D",
+          "F"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant9": {
+        "notes": [
+          "Eb",
+          "G",
+          "Bb",
+          "Db",
+          "F"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor9": {
+        "notes": [
+          "Eb",
+          "Gb",
+          "Bb",
+          "Db",
+          "F"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          10
+        ]
+      },
+      "add9": {
+        "notes": [
+          "Eb",
+          "G",
+          "Bb",
+          "F"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7
+        ]
+      },
+      "diminished9": {
+        "notes": [
+          "Eb",
+          "Gb",
+          "Bbb",
+          "Dbb",
+          "Fb"
+        ],
+        "semitones": [
+          0,
+          1,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished9": {
+        "notes": [
+          "Eb",
+          "Gb",
+          "Bbb",
+          "Db",
+          "F"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major9": {
+        "notes": [
+          "Eb",
+          "Gb",
+          "Bb",
+          "D",
+          "F"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented9": {
+        "notes": [
+          "Eb",
+          "G",
+          "B",
+          "Db",
+          "F"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "E": {
+      "major9": {
+        "notes": [
+          "E",
+          "G#",
+          "B",
+          "D#",
+          "F#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant9": {
+        "notes": [
+          "E",
+          "G#",
+          "B",
+          "D",
+          "F#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor9": {
+        "notes": [
+          "E",
+          "G",
+          "B",
+          "D",
+          "F#"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          10
+        ]
+      },
+      "add9": {
+        "notes": [
+          "E",
+          "G#",
+          "B",
+          "F#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7
+        ]
+      },
+      "diminished9": {
+        "notes": [
+          "E",
+          "G",
+          "Bb",
+          "Db",
+          "F"
+        ],
+        "semitones": [
+          0,
+          1,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished9": {
+        "notes": [
+          "E",
+          "G",
+          "Bb",
+          "D",
+          "F#"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major9": {
+        "notes": [
+          "E",
+          "G",
+          "B",
+          "D#",
+          "F#"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented9": {
+        "notes": [
+          "E",
+          "G#",
+          "B#",
+          "D",
+          "F#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "F": {
+      "major9": {
+        "notes": [
+          "F",
+          "A",
+          "C",
+          "E",
+          "G"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant9": {
+        "notes": [
+          "F",
+          "A",
+          "C",
+          "Eb",
+          "G"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor9": {
+        "notes": [
+          "F",
+          "Ab",
+          "C",
+          "Eb",
+          "G"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          10
+        ]
+      },
+      "add9": {
+        "notes": [
+          "F",
+          "A",
+          "C",
+          "G"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7
+        ]
+      },
+      "diminished9": {
+        "notes": [
+          "F",
+          "Ab",
+          "Cb",
+          "Ebb",
+          "Gb"
+        ],
+        "semitones": [
+          0,
+          1,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished9": {
+        "notes": [
+          "F",
+          "Ab",
+          "Cb",
+          "Eb",
+          "G"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major9": {
+        "notes": [
+          "F",
+          "Ab",
+          "C",
+          "E",
+          "G"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented9": {
+        "notes": [
+          "F",
+          "A",
+          "C#",
+          "Eb",
+          "G"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "F#": {
+      "major9": {
+        "notes": [
+          "F#",
+          "A#",
+          "C#",
+          "E#",
+          "G#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant9": {
+        "notes": [
+          "F#",
+          "A#",
+          "C#",
+          "E",
+          "G#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor9": {
+        "notes": [
+          "F#",
+          "A",
+          "C#",
+          "E",
+          "G#"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          10
+        ]
+      },
+      "add9": {
+        "notes": [
+          "F#",
+          "A#",
+          "C#",
+          "G#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7
+        ]
+      },
+      "diminished9": {
+        "notes": [
+          "F#",
+          "A",
+          "C",
+          "Eb",
+          "G"
+        ],
+        "semitones": [
+          0,
+          1,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished9": {
+        "notes": [
+          "F#",
+          "A",
+          "C",
+          "E",
+          "G#"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major9": {
+        "notes": [
+          "F#",
+          "A",
+          "C#",
+          "E#",
+          "G#"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented9": {
+        "notes": [
+          "F#",
+          "A#",
+          "C##",
+          "E",
+          "G#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "Gb": {
+      "major9": {
+        "notes": [
+          "Gb",
+          "Bb",
+          "Db",
+          "F",
+          "Ab"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant9": {
+        "notes": [
+          "Gb",
+          "Bb",
+          "Db",
+          "Fb",
+          "Ab"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor9": {
+        "notes": [
+          "Gb",
+          "Bbb",
+          "Db",
+          "Fb",
+          "Ab"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          10
+        ]
+      },
+      "add9": {
+        "notes": [
+          "Gb",
+          "Bb",
+          "Db",
+          "Ab"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7
+        ]
+      },
+      "diminished9": {
+        "notes": [
+          "Gb",
+          "Bbb",
+          "Dbb",
+          "Fbb",
+          "Abb"
+        ],
+        "semitones": [
+          0,
+          1,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished9": {
+        "notes": [
+          "Gb",
+          "Bbb",
+          "Dbb",
+          "Fb",
+          "Ab"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major9": {
+        "notes": [
+          "Gb",
+          "Bbb",
+          "Db",
+          "F",
+          "Ab"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented9": {
+        "notes": [
+          "Gb",
+          "Bb",
+          "D",
+          "Fb",
+          "Ab"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "G": {
+      "major9": {
+        "notes": [
+          "G",
+          "B",
+          "D",
+          "F#",
+          "A"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant9": {
+        "notes": [
+          "G",
+          "B",
+          "D",
+          "F",
+          "A"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor9": {
+        "notes": [
+          "G",
+          "Bb",
+          "D",
+          "F",
+          "A"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          10
+        ]
+      },
+      "add9": {
+        "notes": [
+          "G",
+          "B",
+          "D",
+          "A"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7
+        ]
+      },
+      "diminished9": {
+        "notes": [
+          "G",
+          "Bb",
+          "Db",
+          "Fb",
+          "Ab"
+        ],
+        "semitones": [
+          0,
+          1,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished9": {
+        "notes": [
+          "G",
+          "Bb",
+          "Db",
+          "F",
+          "A"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major9": {
+        "notes": [
+          "G",
+          "Bb",
+          "D",
+          "F#",
+          "A"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented9": {
+        "notes": [
+          "G",
+          "B",
+          "D#",
+          "F",
+          "A"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "G#": {
+      "major9": {
+        "notes": [
+          "G#",
+          "B#",
+          "D#",
+          "F##",
+          "A#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant9": {
+        "notes": [
+          "G#",
+          "B#",
+          "D#",
+          "F#",
+          "A#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor9": {
+        "notes": [
+          "G#",
+          "B",
+          "D#",
+          "F#",
+          "A#"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          10
+        ]
+      },
+      "add9": {
+        "notes": [
+          "G#",
+          "B#",
+          "D#",
+          "A#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7
+        ]
+      },
+      "diminished9": {
+        "notes": [
+          "G#",
+          "B",
+          "D",
+          "F",
+          "A"
+        ],
+        "semitones": [
+          0,
+          1,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished9": {
+        "notes": [
+          "G#",
+          "B",
+          "D",
+          "F#",
+          "A#"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major9": {
+        "notes": [
+          "G#",
+          "B",
+          "D#",
+          "F##",
+          "A#"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented9": {
+        "notes": [
+          "G#",
+          "B#",
+          "D##",
+          "F#",
+          "A#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "Ab": {
+      "major9": {
+        "notes": [
+          "Ab",
+          "C",
+          "Eb",
+          "G",
+          "Bb"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant9": {
+        "notes": [
+          "Ab",
+          "C",
+          "Eb",
+          "Gb",
+          "Bb"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor9": {
+        "notes": [
+          "Ab",
+          "Cb",
+          "Eb",
+          "Gb",
+          "Bb"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          10
+        ]
+      },
+      "add9": {
+        "notes": [
+          "Ab",
+          "C",
+          "Eb",
+          "Bb"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7
+        ]
+      },
+      "diminished9": {
+        "notes": [
+          "Ab",
+          "Cb",
+          "Ebb",
+          "Gbb",
+          "Bbb"
+        ],
+        "semitones": [
+          0,
+          1,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished9": {
+        "notes": [
+          "Ab",
+          "Cb",
+          "Ebb",
+          "Gb",
+          "Bb"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major9": {
+        "notes": [
+          "Ab",
+          "Cb",
+          "Eb",
+          "G",
+          "Bb"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented9": {
+        "notes": [
+          "Ab",
+          "C",
+          "E",
+          "Gb",
+          "Bb"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "A": {
+      "major9": {
+        "notes": [
+          "A",
+          "C#",
+          "E",
+          "G#",
+          "B"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant9": {
+        "notes": [
+          "A",
+          "C#",
+          "E",
+          "G",
+          "B"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor9": {
+        "notes": [
+          "A",
+          "C",
+          "E",
+          "G",
+          "B"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          10
+        ]
+      },
+      "add9": {
+        "notes": [
+          "A",
+          "C#",
+          "E",
+          "B"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7
+        ]
+      },
+      "diminished9": {
+        "notes": [
+          "A",
+          "C",
+          "Eb",
+          "Gb",
+          "Bb"
+        ],
+        "semitones": [
+          0,
+          1,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished9": {
+        "notes": [
+          "A",
+          "C",
+          "Eb",
+          "G",
+          "B"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major9": {
+        "notes": [
+          "A",
+          "C",
+          "E",
+          "G#",
+          "B"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented9": {
+        "notes": [
+          "A",
+          "C#",
+          "E#",
+          "G",
+          "B"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "A#": {
+      "major9": {
+        "notes": [
+          "A#",
+          "C##",
+          "E#",
+          "G##",
+          "B#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant9": {
+        "notes": [
+          "A#",
+          "C##",
+          "E#",
+          "G#",
+          "B#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor9": {
+        "notes": [
+          "A#",
+          "C#",
+          "E#",
+          "G#",
+          "B#"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          10
+        ]
+      },
+      "add9": {
+        "notes": [
+          "A#",
+          "C##",
+          "E#",
+          "B#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7
+        ]
+      },
+      "diminished9": {
+        "notes": [
+          "A#",
+          "C#",
+          "E",
+          "G",
+          "B"
+        ],
+        "semitones": [
+          0,
+          1,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished9": {
+        "notes": [
+          "A#",
+          "C#",
+          "E",
+          "G#",
+          "B#"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major9": {
+        "notes": [
+          "A#",
+          "C#",
+          "E#",
+          "G##",
+          "B#"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented9": {
+        "notes": [
+          "A#",
+          "C##",
+          "E##",
+          "G#",
+          "B#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "Bb": {
+      "major9": {
+        "notes": [
+          "Bb",
+          "D",
+          "F",
+          "A",
+          "C"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant9": {
+        "notes": [
+          "Bb",
+          "D",
+          "F",
+          "Ab",
+          "C"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor9": {
+        "notes": [
+          "Bb",
+          "Db",
+          "F",
+          "Ab",
+          "C"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          10
+        ]
+      },
+      "add9": {
+        "notes": [
+          "Bb",
+          "D",
+          "F",
+          "C"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7
+        ]
+      },
+      "diminished9": {
+        "notes": [
+          "Bb",
+          "Db",
+          "Fb",
+          "Abb",
+          "Cb"
+        ],
+        "semitones": [
+          0,
+          1,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished9": {
+        "notes": [
+          "Bb",
+          "Db",
+          "Fb",
+          "Ab",
+          "C"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major9": {
+        "notes": [
+          "Bb",
+          "Db",
+          "F",
+          "A",
+          "C"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented9": {
+        "notes": [
+          "Bb",
+          "D",
+          "F#",
+          "Ab",
+          "C"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          8,
+          10
+        ]
+      }
+    },
+    "B": {
+      "major9": {
+        "notes": [
+          "B",
+          "D#",
+          "F#",
+          "A#",
+          "C#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          11
+        ]
+      },
+      "dominant9": {
+        "notes": [
+          "B",
+          "D#",
+          "F#",
+          "A",
+          "C#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7,
+          10
+        ]
+      },
+      "minor9": {
+        "notes": [
+          "B",
+          "D",
+          "F#",
+          "A",
+          "C#"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          10
+        ]
+      },
+      "add9": {
+        "notes": [
+          "B",
+          "D#",
+          "F#",
+          "C#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          7
+        ]
+      },
+      "diminished9": {
+        "notes": [
+          "B",
+          "D",
+          "F",
+          "Ab",
+          "C"
+        ],
+        "semitones": [
+          0,
+          1,
+          3,
+          6,
+          9
+        ]
+      },
+      "half-diminished9": {
+        "notes": [
+          "B",
+          "D",
+          "F",
+          "A",
+          "C#"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          6,
+          10
+        ]
+      },
+      "minor-major9": {
+        "notes": [
+          "B",
+          "D",
+          "F#",
+          "A#",
+          "C#"
+        ],
+        "semitones": [
+          0,
+          2,
+          3,
+          7,
+          11
+        ]
+      },
+      "augmented9": {
+        "notes": [
+          "B",
+          "D#",
+          "F##",
+          "A",
+          "C#"
+        ],
+        "semitones": [
+          0,
+          2,
+          4,
+          8,
+          10
+        ]
+      }
+    }
+  }
+}

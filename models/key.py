@@ -69,7 +69,7 @@ class Key:
 
     def __repr__(self):
         scale_str = " ".join(str(p) for p in self.scale)
-        return f"{self.original_tonic} {self.mode.capitalize()} Scale: {scale_str}"
+        return f"{self.original_tonic} {self.mode.capitalize()}"
 
     def __eq__(self, other):
         if isinstance(other, Key):

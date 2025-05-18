@@ -65,6 +65,46 @@ class Interval:
     def __repr__(self):
         return self.name
 
+    def __eq__(self, other):
+        if isinstance(other, Interval):
+            return self.semitones == other.semitones and self.letter_steps == other.letter_steps
+        return False
+
+    def __add__(self, other):
+        if isinstance(other, Interval):
+            new_low = Pitch(self.low.name, self.low.octave)
+            new_high = Pitch(self.high.name, self.high.octave)
+            return Interval(new_low, new_high)
+        elif isinstance(other, Pitch):
+            new_high = Pitch(self.high.name, self.high.octave)
+            return Interval(self.low, other)
+        else:
+            raise TypeError(f"Unsupported type for addition: {type(other)}")
+
+    def __sub__(self, other):
+        if isinstance(other, Interval):
+            new_low = Pitch(self.low.name, self.low.octave)
+            new_high = Pitch(self.high.name, self.high.octave)
+            return Interval(new_low, new_high)
+        elif isinstance(other, Pitch):
+            new_high = Pitch(self.high.name, self.high.octave)
+            return Interval(self.low, other)
+        else:
+            raise TypeError(f"Unsupported type for subtraction: {type(other)}")
+
+    def compliment(self):
+        comp_semitones = 12 - (self.semitones % 12)
+        comp_letter_steps = (7 - self.letter_steps % 7) % 7
+
+        # Try to find a matching name in the qualities table
+        comp_name = self.qualities.get((comp_semitones, comp_letter_steps))
+        if not comp_name:
+            return None  # or raise an error if you prefer
+
+        from models import apply_interval, Key  # avoid circular import
+        comp_pitch = apply_interval(self.low, Key(str(self.low), "major"), comp_name)
+        return Interval(self.low, comp_pitch)
+
 
 interval_semitones = {
     "P1": 0, "A1": 1, "d2": 0, "m2": 1, "M2": 2, "A2": 3,
@@ -109,3 +149,5 @@ def apply_interval(pitch: Pitch, key, interval_str: str) -> Pitch:
     # Use key to get correct spelling
     note_name = key.find_spelling(new_pc, new_letter)
     return Pitch(note_name, None if new_octave is None else new_octave)
+
+

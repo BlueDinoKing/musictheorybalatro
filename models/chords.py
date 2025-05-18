@@ -1,36 +1,41 @@
-from models import Pitch, Key, apply_interval
 from abc import ABC, abstractmethod
+from models import Pitch, Key, Interval, apply_interval
+
+
+# === Chord Classes ===
 
 class Chord(ABC):
     """Abstract base class for all chords."""
 
-    def __init__(self, root: Pitch, quality: str, key: Key = None):
+    def __init__(self, root: Pitch = None, quality: str = None, key: Key = None, notes=None):
+        if root is None or quality is None:
+            raise ValueError("Provide both 'root' and 'quality'.")
         self.root = root
         self.quality = quality
-        self.key = key or Key(str(root), "major")
-        self.notes = self.generate_notes()
+        self.key = key or Key(root.name, "major")
+        if notes is None:
+            self.notes = self.generate_notes()
+        else:
+            self.notes = notes
 
     @abstractmethod
     def generate_notes(self):
-        """Generate the chord tones. implemented by subclasses."""
+        """Generate the chord tones. Implemented by subclasses."""
         pass
 
     def add_note(self, note: Pitch):
-        """Add a note to the chord."""
         if note not in self.notes:
             self.notes.append(note)
 
     def add_notes(self, notes: list):
-        """Add multiple notes to the chord."""
         for note in notes:
             self.add_note(note)
 
     def remove_note(self, note: Pitch):
-        """Remove a note from the chord."""
         if note in self.notes:
             self.notes.remove(note)
+
     def remove_notes(self, notes: list):
-        """Remove multiple notes from the chord."""
         for note in notes:
             self.remove_note(note)
 
@@ -100,5 +105,24 @@ class NinthChord(Chord):
         if self.quality not in self.QUALITY_INTERVALS:
             raise ValueError(f"Unsupported 9th chord quality: {self.quality}")
         return [self.root] + [apply_interval(self.root, self.key, intv) for intv in self.QUALITY_INTERVALS[self.quality]]
+
+
+class GenericChord(Chord):
+    """Fallback chord class for custom note lists without standard quality/type."""
+
+    def __init__(self, notes: list, key: Key = None):
+        if not notes:
+            raise ValueError("Notes list cannot be empty.")
+
+        self.notes = notes
+        self.root = notes[0]
+        self.quality = "custom"
+        self.key = key or Key(str(self.root), "major")
+
+    def generate_notes(self):
+        return self.notes
+
+    def __repr__(self):
+        return f"{self.root}(custom): {'-'.join(str(n) for n in self.notes)}"
 
 
