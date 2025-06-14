@@ -237,11 +237,16 @@ def test_find_chord(expected_root, quality, notes, expected_type):
     assert chord.root == expected_root
     assert chord.quality == quality
 
-def test_generic_chord_fallback():
-    notes = [Pitch("C"), Pitch("D"), Pitch("F#")]  # doesn't match any known chord
+@pytest.mark.parametrize("notes", [
+    # Triads
+    [Pitch("C"), Pitch("E"), Pitch("B")],
+    [Pitch("C"), Pitch("G"), Pitch("B")],
+    [Pitch("E"), Pitch("D"), Pitch("G")],
+    [Pitch("G"), Pitch("F"), Pitch("E")],
+])
+def test_generic_chord_fallback(notes):
     chord = find_chord(notes)
     assert isinstance(chord, GenericChord)
-
 
 
 
